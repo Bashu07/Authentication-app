@@ -12,7 +12,7 @@ connectDB();
 
 
 
-const allowedOrigins = ['http://localhost:5173','https://authentication-app-two-beige.vercel.app/']
+const allowedOrigins = ['http://localhost:5173','https://authentication-app-two-beige.vercel.app']
 
 app.use(express.json())
 app.use(cookieParser())
